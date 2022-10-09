@@ -8,6 +8,6 @@ var student = {
     sclass: "VI",
     rollno: 12
 }
-let prop:string = Object.keys(student).join(" ");
+let prop:string = Object.keys(student).join(",");
 console.log(prop);
 

@@ -3,5 +3,5 @@ var student = {
     sclass: "VI",
     rollno: 12
 };
-var prop = Object.keys(student).join(" ");
+var prop = Object.keys(student).join(",");
 console.log(prop);
